@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Address page </title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" >
+	
+	<link rel="stylesheet" type="text/css" href="css/addressformstyle.css">
+	
+</head>
+<body>
+	<section class="fill-address">
+		<h1 class="title">Enter shipping address</h1>
+		
+		<div class="container">
+			<div class="address-form row">
+			<form action = "address.php" method = "post">
+				<div class="form-field col-lg-12">
+					<input id="city" class="input-text" type="text" placeholder="name" name="cname">
+					
+				</div>
+				<div class="form-field col-lg-12">
+					<input id="city" class="input-text" type="text" placeholder="City" name="custcity">
+					
+				</div>
+				<div class="form-field col-lg-12">
+					<input id="flatno" class="input-text" type="number" placeholder="Flat no" name="flat">
+					
+				</div>
+				<div class="form-field col-lg-6">
+					<input id="landmark" class="input-text" type="text" placeholder="Landmark" name="land">
+					
+				</div>
+				<div class="form-field col-lg-6">
+					<input id="pincode" class="input-text" type="text" placeholder="Pincode" name="pin">
+					
+				</div>
+				<div class="form-field col-lg-12">
+					<input id="contact" class="input-text" type="tel" placeholder="Contact" name="contactnum">
+					
+				</div>
+				<div class="form-field col-lg-12">
+					<input class="submit-btn" type="submit" value="Next" name="">
+				</div>
+			</form>
+			</div>
+		</div>
+	</section>
+	
+	
+</body>
+</html>
